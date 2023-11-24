@@ -1,0 +1,4 @@
+function showList() {
+  // Mostra a lista
+  document.getElementById("myList").style.display = "block";
+}

@@ -1,0 +1,27 @@
+CSS body {
+  font-family: sans-serif;
+  background-color: orange;
+}
+
+header {
+  background-color: #ee7600;
+  color: #ffffff;
+  padding: 35px;
+}
+
+h3 {
+  font-size: 2em;
+  margin-top: 0;
+  color: white
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  color: white;
+}
+
+a {
+  color: white
+}
