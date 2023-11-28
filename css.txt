@@ -13,15 +13,21 @@ h3 {
   font-size: 2em;
   margin-top: 0;
   color: white
+  word-spacing: 30px;
 }
 
 nav {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
   color: white;
 }
 
 a {
   color: white
+}
+h2 {
+  font-size: 2em;
+  margin-top: 0;
+  color: black
 }
