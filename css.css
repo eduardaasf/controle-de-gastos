@@ -1,0 +1,48 @@
+CSS body {
+  font-family: sans-serif;
+  background-color: orange;
+}
+
+header {
+  background-color: #ee7600;
+  color: #ffffff;
+  padding: 30px;
+  font-weight: bold;
+  border-radius: 7px;
+}
+
+h3 {
+  font-size: 2em;
+  margin-top: 0;
+  color: white
+  word-spacing: 20px;
+  font-weight: bold;
+  font-family: sans-serif;
+  
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  color: white;
+  font-weight: bold;
+  font-family: sans-serif;
+  background-color: orange;
+  border-radius: 5px;
+}
+
+a {
+  color: white
+}
+h2 {
+  font-size: 2em;
+  margin-top: 0;
+  color: black
+
+}
+
+table {
+  border: 1px solid orange;
+}
+

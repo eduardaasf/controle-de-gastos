@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <script src="java.js"></script>
+  <script src="java2.js"></script>
+  <link rel="stylesheet" href="css.css">
+</head>
+<header>
+ 
+ <h3>
+ <p align="center">
+MINHA CARTEIRA VIRTUAL
+ </h3>
+ <nav>
+ <p align="center">
+      <a href="principal - html.html">Home</a>
+      <a href="site2.html">Log Out</a>
+      
+    </nav>
+ </header>
+<head>
+  <title>Gastos</title>
+</head>
+<body>
+<p>
+  <form action="site3.html" method="post">
+    <input type="text" name="descricao" placeholder="Descrição">
+    <input type="number" name="valor" step="0.001" placeholder="Valor">
+    <input type="date" name="data" placeholder="Data">
+    <select name="categoria">
+      		<option value="alimentacao">Alimentação</option>
+      		<option value="transporte">Transporte</option>
+      		<option value="moradia">Moradia</option>
+      		<option value="educacao">Educação</option>
+      		<option value="lazer">Lazer</option>
+    </select>
+    <button type="button" onclick="gerarPlanilha()">Enviar </button>
+  </form>
+
+</p>
+  <h1>Total de gastos: <span id="total-gastos"></span></h1>
+
+<table name="planilha">
+  <thead>
+    <tr>
+      <th style="width: 100px;">Descrição</th>
+      <th style="width: 100px;">Valor</th>
+      <th style="width: 100px;">Data</th>
+      <th style="width: 100px;">Categoria</th>
+    </tr>
+  </thead>
+  <tbody>
+     
+  </tbody>
+</table>
+<button type="button" onclick="gerarRelatorioDespesas(data)">Extrair Despesas</button>
+</html>
