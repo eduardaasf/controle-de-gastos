@@ -1,5 +1,5 @@
-function gerarRelatorioDespesas(data) {
-  // Definir o título do relatório
+function gerarRelatorioDespesas() {
+  // 
   const title = 'Relatório de Despesas';
 
   //
