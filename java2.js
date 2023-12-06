@@ -3,6 +3,7 @@ function gerarRelatorioDespesas() {
   const title = 'Relatório de Despesas';
 
   //
+  const data = document.querySelector("table")
   const formattedData = data.map(({ data, valor, categoria, descricao }) => {
     return {
       data: moment(data).format('DD/MM/YYYY'),
